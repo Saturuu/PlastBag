@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-inline: auto;
+    background: url(../Images/BackgroundGridCubes.webp);
+    background-position: center;
+}
+
+
+/* Normal screen size */
+@media (min-width:1332px){
+    body {
+    width: 1332px;
+    }
+}
+
+/* Too close screen size */
+@media (max-width:1332px){
+    body {
+    width: 100%;
+    margin-block: 0;
+    }
+}
