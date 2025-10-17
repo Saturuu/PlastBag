@@ -1,0 +1,10 @@
+
+.section {
+    height: fit-content;
+    background-color: #32323280;
+}
+
+.section > ul {
+    font-family: "OpenSans-Regular";
+    font-size: 14px;
+}

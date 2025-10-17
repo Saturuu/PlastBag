@@ -1,0 +1,44 @@
+.header {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-top: 32px;
+    background-color: #32323280;
+}
+
+.header > nav {
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+    image-rendering: pixelated;
+}
+
+.Nav_Searchbar {
+    margin: 8px;
+}
+
+.Nav_Icon {
+    aspect-ratio: 1/1;
+    height: 32px;
+    margin: 8px;
+
+    border: none;
+    background: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+#ShoppingCart {
+    background-image: url(../Images/Icons/shopping_cart_32dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.svg);
+}
+
+#Search {
+    background-image: url(../Images/Icons/search_32dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.svg);
+}
