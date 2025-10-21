@@ -1,6 +1,6 @@
 button {
     border-radius: 8px;
-    padding: 5px;
+    padding: 8px;
 
     color: white;    
     font-family: "OpenSans-Regular";
@@ -10,7 +10,7 @@ button {
     background-image: linear-gradient(#5a5a5a, #202020);
     box-shadow: inset  0 0 4px #000000, -1px 1px 1px #8181818f;
 
-    transition: box-shadow 20ms;
+    transition: all 40ms;
 }
 
 button:hover {
@@ -18,6 +18,6 @@ button:hover {
 }
 
 button:active {
-    color: darkgray;
+    color: #ffffff80;
     box-shadow: inset  0 0 8px #000000, 0 0 1px #8181818f;
 }

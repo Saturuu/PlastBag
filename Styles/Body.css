@@ -6,7 +6,7 @@ body {
     background: url(../Images/BackgroundGridCubes.webp);
     background-position: center;
 
-    background-color: beige;
+    background-color: var(--clr-grey-03);
     image-rendering: pixelated;
 }
 
