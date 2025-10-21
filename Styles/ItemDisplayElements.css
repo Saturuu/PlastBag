@@ -19,7 +19,7 @@
 
 .ItemDiscover {
     height: fit-content;
-    padding-bottom: 30px;
+    padding-block: 30px;
 
     display: grid;
     grid-template-rows: repeat(auto-fill, auto-fill);
@@ -36,7 +36,7 @@
     padding-block: 5px;
     margin: 0;
 
-    gap: 20px;
+    gap: 28px;
 
     width: auto;
     height: auto;
@@ -50,11 +50,21 @@
     width: 0;
 }
 
+.ItemScrollSelection > .Product_Listing:first-child {
+    margin-left: 35px;
+}
+
+.ItemScrollSelection > .Product_Listing:last-child {
+    margin-right: 35px;
+}
+
 .ItemsCategory {
     font-family: "OpenSans-Regular";
     margin: 20px;
     margin-bottom: 15px;
 }
+
+
 
 
 
