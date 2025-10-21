@@ -1,0 +1,17 @@
+.section {
+    height: fit-content;
+    background-color: var(--clr-grey-03);
+
+    position: sticky;
+    top: 0;
+
+}
+
+.section > ul {
+    font-family: "OpenSans-Regular";
+    font-size: 14px;
+}
+
+.section > ul > li {
+    margin-block: 10px;
+}
