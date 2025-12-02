@@ -1,0 +1,240 @@
+.CurrentImage {
+    aspect-ratio: 3/2;
+    margin: 40px;
+    width: calc(100% - (40px * 2));
+    object-fit: contain;
+    image-rendering: auto;
+
+    filter: drop-shadow(0 0 36px rgba(0, 0, 0, 0.5));
+}
+
+.ItemGallery {
+    margin-block: 20px;
+}
+
+.ItemInfo {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, auto-fill);
+    background-color: var(--clr-grey-03);
+    border: solid var(--clr-grey-04) 1px;
+    border-bottom: 0;
+    box-shadow: inset  0 0 2px #00000075;
+}
+
+.ImageItemSlider {
+    display: flex;
+    justify-content: center;
+}
+
+.ThumbnailImage {
+    height: 100px;
+    width: auto;
+    margin-inline: 10px;
+
+    cursor: pointer;
+
+    image-rendering: auto;
+    filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.25));
+
+    object-fit: cover;
+
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: transparent;
+}
+
+.ThumbnailImage:hover {
+    border-color: var(--clr-hight-01);
+}
+
+
+
+
+
+
+
+.TextInfo{
+    font-family: "Roboto-Regular";
+    margin-inline: 20px;
+    margin-block: 64px;
+
+    color: var(--clr-white);
+}
+
+.TextInfo > p,.TextInfo > h1{
+    font-family: "Roboto-Regular";
+    margin-inline: 20px;
+    margin-block: 64px;
+
+    color: var(--clr-white);
+    text-shadow: 0 0 3px var(--clr-black);
+}
+
+.TextInfo > p{
+    font-size: 18px;
+}
+
+.TextInfo > img{
+    width: 100%;
+    height: auto;
+
+    image-rendering: auto;
+}
+
+
+
+
+
+
+
+.section {
+    background-size: 20px;
+    background-position: center;
+
+    background-color: var(--clr-grey-01);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), transparent);
+}
+
+.BoxSticky {
+    height: fit-content;
+    padding-inline: 20px;
+    padding-block: 20px;
+    background-color: var(--clr-grey-03);
+
+    position: sticky;
+    top: 0;
+
+    border: solid 1px var(--clr-black);
+
+    font-family: "Roboto-Regular";
+}
+
+.WidthButtonContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.PriceTag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80px;
+    height: 40px;
+    margin-top: 28px;
+    margin-bottom: 4px;
+
+    font-size: 20px;
+    font-weight: bolder;
+
+    background-color: var(--clr-hight-01);
+    border-radius: 4px;
+}
+
+.NonDphPriceTag {
+    margin-top: 4px;
+    margin-bottom: 28px;
+
+    color: var(--clr-grey-01);
+}
+
+
+
+
+.QuantityContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: fit-content;
+
+    padding: 6px;
+
+    background-color: var(--clr-grey-01);
+    box-shadow: inset  0 0 4px var(--clr-grey-03);
+
+    border-radius: 6px;
+    border: solid black 1px;
+}
+
+.QuantityContainer > p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.QuantityInput {
+    margin: 0;
+    margin-left: 5px;
+    height: 32px;
+    width: 40px;
+
+    border: none;
+    background-color: transparent;
+
+    accent-color: var(--clr-hight-01);
+}
+
+.QuantityInput:focus-visible{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.QuantityInput > option {
+    background: var(--clr-grey-01);
+    border: none;
+}
+
+.InventoryText {
+    color: var(--clr-grey-01);
+    margin-bottom: 4px;
+}
+
+
+
+
+
+table {
+    width: 60%;
+    margin-inline: auto;
+
+    border-collapse: collapse;
+
+    border: solid var(--clr-grey-04) 1px;
+
+    background-color: var(--clr-grey-01);
+    color: var(--clr-black);
+}
+
+table > caption {
+    background-color: var(--clr-hight-01);
+
+    border: solid var(--clr-grey-04) 1px;
+    border-bottom: none;
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+table > caption > h2 {
+    margin-block: 8px;
+}
+
+table, td, th {
+    /*/border: solid black 1px;/*/
+    padding: 8px;
+}
+
+tr {
+    transition: all 100ms;
+}
+
+tr:hover {
+    background-color: var(--clr-grey-02);
+}
+
+
+
+.TableSectorName {
+    padding: 12px;
+}

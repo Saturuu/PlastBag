@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Item search page -->
+
+<head>
+    <title>Plastbag</title>
+    <meta name="description" content="The search page for Plastbag.">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./Styles/WebSideBarGrid.css">
+
+    <link rel="stylesheet" href="./Styles/ColorPalette.css">
+
+    <link rel="stylesheet" href="./Styles/Body.css">
+    <link rel="stylesheet" href="./Styles/Buttons.css">
+    <link rel="stylesheet" href="./Styles/FontsLink.css">
+
+    <link rel="stylesheet" href="./Styles/ItemDisplayElements.css">
+    <link rel="stylesheet" href="./Styles/Filter.css">
+    <link rel="stylesheet" href="./Styles/HeaderElements.css">
+    <link rel="stylesheet" href="./Styles/FooterElements.css">
+</head>
+
+<body>
+
+    <div class="container">
+    
+        <header class="NavigationBar">
+            <a href="./index.html"><img class="Logo" src="./Images/PlatBag-Title.webp" alt="Plastbag logo image."></a>
+            <nav>
+                <input class="Nav_Searchbar" type="search" placeholder="Searching for somethig?">
+                <button class="Nav_Icon" id="Search"></button>
+                <button class="Nav_Icon" id="ShoppingCart"></button>
+            </nav>
+        </header>
+
+        <section class="section">
+            <div class="BoxSticky">
+                <p>Price range</p>
+                <div class="HorizontalJustifyFlex">
+                    <input class="PriceInput" type="number" min="1" value="0">
+                    <p>-</p>
+                    <input class="PriceInput" type="number" min="1" value="999">
+                </div>
+                <p>Availability</p>
+                <div class="HorizontalFlex">
+                    <input type="checkbox" name="02" id="" checked>
+                    <label for="02">Available</label>
+                </div>
+                <div class="HorizontalFlex">
+                    <input type="checkbox" name="02" id="">
+                    <label for="02">Ordered</label>
+                </div>
+                <div class="HorizontalFlex">
+                    <input type="checkbox" name="02" id="">
+                    <label for="02">Unavailable</label>
+                </div>
+                <p>Condition of a item</p>
+                <div class="HorizontalFlex">
+                    <input type="checkbox" name="02" id="" checked>
+                    <label for="02">New</label>
+                </div>
+                <div class="HorizontalFlex">
+                    <input type="checkbox" name="02" id="" checked>
+                    <label for="02">Opened</label>
+                </div>
+                <div class="HorizontalFlex">
+                    <input type="checkbox" name="02" id="" checked>
+                    <label for="02">Used</label>
+                </div>
+            </div>
+        </section>
+
+
+        <main>
+
+            <div class="Category">
+                <div class="CategoryContainer">
+                    <p>Figures</p>
+                    <p>Stickers</p>
+                    <p>Clothes</p>
+                    <p>Hats</p>
+                </div>
+            </div>
+            
+            <div class="ItemShowCase">
+                <div class="Product_Listing">
+                    <a href="ItemPage.html" style="text-decoration: none;">
+                        <img class="Product_Image" src="./Images/Items/Ca274.webp" alt="" loading="lazy">
+                        <p class="Product_Name">Plastbag Can</p>
+                    </a>
+                    <p class="Product_Price_Tag"><span>67</span>,-</p>
+                    <div class="Product_Listing_Buttons">
+                        <button class="Add_To_Cart">Add to cart</button>
+                        <button id="ButtonStyleFavorite"></button>
+                    </div>
+                </div>
+                <div class="Product_Listing">
+                    <a href="ItemPage.html" style="text-decoration: none;">
+                        <img class="Product_Image" src="./Images/Items/Bo406.webp" alt="" loading="lazy">
+                        <p class="Product_Name">Box for your box</p>
+                    </a>
+                    <p class="Product_Price_Tag"><span>177</span>,-</p>
+                    <div class="Product_Listing_Buttons">
+                        <button class="Add_To_Cart">Add to cart</button>
+                        <button id="ButtonStyleFavorite"></button>
+                    </div>
+                </div>
+                <div class="Product_Listing">
+                    <a href="ItemPage.html?item=La01" style="text-decoration: none;">
+                        <img class="Product_Image" src="./Images/Items/La804.webp" alt="" loading="lazy">
+                        <p class="Product_Name">Larva Figure</p>
+                    </a>
+                    <p class="Product_Price_Tag"><span>1 399</span>,-</p>
+                    <div class="Product_Listing_Buttons">
+                        <button class="Add_To_Cart">Add to cart</button>
+                        <button id="ButtonStyleFavorite"></button>
+                    </div>
+                </div>
+                <div class="Product_Listing">
+                    <a href="ItemPage.html" style="text-decoration: none;">
+                        <img class="Product_Image" src="./Images/Items/Hu654.webp" alt="" loading="lazy">
+                        <p class="Product_Name">Hugo</p>
+                    </a>
+                    <p class="Product_Price_Tag"><span>999</span>,-</p>
+                    <div class="Product_Listing_Buttons">
+                        <button class="Add_To_Cart">Add to cart</button>
+                        <button id="ButtonStyleFavorite"><img src="" alt=""></button>
+                    </div>
+                </div>
+                <div class="Product_Listing">
+                    <a href="ItemPage.html" style="text-decoration: none;">
+                        <img class="Product_Image" src="./Images/Items/Al089.webp" alt="" loading="lazy">
+                        <p class="Product_Name">Alik</p>
+                    </a>
+                    <p class="Product_Price_Tag"><span>999</span>,-</p>
+                    <div class="Product_Listing_Buttons">
+                        <button class="Add_To_Cart">Add to cart</button>
+                        <button id="ButtonStyleFavorite"><img src="" alt=""></button>
+                    </div>
+                </div>
+                <div class="Product_Listing">
+                    <a href="ItemPage.html" style="text-decoration: none;">
+                        <img class="Product_Image" src="./Images/Items/Ot407.webp" alt="" loading="lazy">
+                        <p class="Product_Name">Otter</p>
+                    </a>
+                    <p class="Product_Price_Tag"><span>999</span>,-</p>
+                    <div class="Product_Listing_Buttons">
+                        <button class="Add_To_Cart">Add to cart</button>
+                        <button id="ButtonStyleFavorite"></button>
+                    </div>
+                </div>
+                <div class="Product_Listing">
+                    <a href="ItemPage.html?item=La01" style="text-decoration: none;">
+                        <img class="Product_Image" src="./Images/Items/Ge046.webp" alt="" loading="lazy">
+                        <p class="Product_Name">Faibie</p>
+                    </a>
+                    <p class="Product_Price_Tag"><span>1 399</span>,-</p>
+                    <div class="Product_Listing_Buttons">
+                        <button class="Add_To_Cart">Add to cart</button>
+                        <button id="ButtonStyleFavorite"></button>
+                    </div>
+                </div>
+                <div class="Product_Listing">
+                    <a href="ItemPage.html" style="text-decoration: none;">
+                        <img class="Product_Image" src="./Images/Items/Bo102.webp" alt="" loading="lazy">
+                        <p class="Product_Name">High on life Alien cum High on life</p>
+                    </a>
+                    <p class="Product_Price_Tag"><span>177</span>,-</p>
+                    <div class="Product_Listing_Buttons">
+                        <button class="Add_To_Cart">Add to cart</button>
+                        <button id="ButtonStyleFavorite"><img src="" alt=""></button>
+                    </div>
+                </div>
+                <div class="Product_Listing">
+                    <a href="ItemPage.html" style="text-decoration: none;">
+                        <img class="Product_Image" src="./Images/Items/Ca274.webp" alt="" loading="lazy">
+                        <p class="Product_Name">Plastbag Can</p>
+                    </a>
+                    <p class="Product_Price_Tag"><span>67</span>,-</p>
+                    <div class="Product_Listing_Buttons">
+                        <button class="Add_To_Cart">Add to cart</button>
+                        <button id="ButtonStyleFavorite"><img src="" alt=""></button>
+                    </div>
+                </div>
+                <div class="Product_Listing">
+                    <a href="ItemPage.html" style="text-decoration: none;">
+                        <img class="Product_Image" src="./Images/Items/Ug630.webp" alt="" loading="lazy">
+                        <p class="Product_Name">BOB Plush</p>
+                    </a>
+                    <p class="Product_Price_Tag"><span>399</span>,-</p>
+                    <div class="Product_Listing_Buttons">
+                        <button class="Add_To_Cart">Add to cart</button>
+                        <button id="ButtonStyleFavorite"><img src="" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="Footer_Line">
+                <a href="" class="FooterLinks"><p>Delivery</p></a>
+                <p class="FooterText">│</p>
+                <a href="AboutUs.html" class="FooterLinks"><p>About us</p></a>
+                <a href="Contact.html" class="FooterLinks"><p>Contact</p></a>
+                <p class="FooterText">│</p>
+                <a href="https://www.instagram.com" class="FooterLinks"><p>Instagram</p></a>
+                <a href="https://www.youtube.com" class="FooterLinks"><p>Youtube</p></a>
+                <a href="https://x.com" class="FooterLinks"><p>X</p></a>
+            </div>
+            <div class="Footer_Line">
+                <p class="FooterText">© 2025 Plastbag</p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

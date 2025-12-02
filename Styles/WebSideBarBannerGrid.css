@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-areas:
+    "NavigationBar NavigationBar"
+    "Banner Banner"
+    "section Main"
+    "footer footer";
+    grid-template-columns: 1fr 4fr;
+
+    background-color: var(--clr-grey-04);
+
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+    box-shadow: 0 0 16px black;
+}
+
+.NavigationBar {
+    grid-area: NavigationBar;
+}
+
+.Banner {
+    grid-area: Banner;
+}
+
+.section {
+    grid-area: section;
+}
+
+.ItemShowCase.ItemDiscover {
+    grid-area: Main;
+}
+
+.footer {
+    grid-area: footer;
+}

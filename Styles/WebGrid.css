@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-areas:
+    "NavigationBar"
+    "Main"
+    "footer";
+    grid-template-columns: 1fr;
+
+    background-color: var(--clr-grey-04);
+
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+    box-shadow: 0 0 16px black;
+}
+
+.NavigationBar {
+    grid-area: NavigationBar;
+}
+
+.MainText {
+    grid-area: Main;
+}
+
+.footer {
+    grid-area: footer;
+}

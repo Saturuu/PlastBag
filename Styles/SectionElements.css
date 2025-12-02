@@ -1,0 +1,61 @@
+section {
+    background-size: 20px;
+    background-position: center;
+
+    background-color: var(--clr-grey-01);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), transparent);
+}
+
+.BoxSticky {
+    height: fit-content;
+    padding-left: 20px;
+    padding-block: 20px;
+    background-color: var(--clr-grey-01);
+
+    position: sticky;
+    top: 0;
+
+    border: solid 1px var(--clr-grey-04);
+    border-right: none;
+}
+
+/*////////*/
+/*/ List /*/
+/*////////*/
+
+/*/ Category /*/
+.BoxSticky > dl > a > dt {
+    margin-block: 10px;
+    font-size: 18px;
+    font-family: "OpenSans-Regular";
+    font-weight: bold;
+    color: black;
+}
+
+.BoxSticky > dl > a > dt:hover {
+    text-decoration: underline var(--clr-hight-01) 2px;
+}
+
+.BoxSticky > dl > a{
+    text-decoration: none;
+}
+
+.BoxSticky > dl > a > dd{
+    margin-block: 5px;
+    margin-left: 5px;
+    padding: 10px;
+
+    font-family: "OpenSans-Regular";
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+
+    border-left: none transparent;
+
+    transition: all 100ms;
+}
+
+.BoxSticky > dl > a > dd:hover{
+    background-image: linear-gradient(to right, #00000013, transparent 90%);
+    border-left: solid var(--clr-hight-01) 10px;
+}

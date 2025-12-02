@@ -1,0 +1,150 @@
+.MainText {
+    min-height: 1124px;
+
+    background-color: var(--clr-grey-01);
+    border: solid var(--clr-grey-04) 1px;
+    border-bottom: 0;
+    box-shadow: inset  0 0 8px #00000075;
+}
+
+
+
+
+.SupportForm {
+    width: auto;
+    margin-block: 60px;
+    padding-inline: 220px;
+    padding-block: 30px;
+
+    background-color: var(--clr-hight-03);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+}
+
+.ProblemContainer {
+    width: auto;
+    height: auto;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+
+.DisplayProblem {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    border: solid var(--clr-grey-03) 4px;
+
+    transition: all 100ms;
+
+    overflow: hidden;
+    border-radius: 16px;
+
+    background-color: var(--clr-grey-01);
+    box-shadow: inset  0 0 16px var(--clr-white);
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ProblemTextHolder {
+    margin-left: 15px;
+}
+
+#C01:checked ~ #V01, #C02:checked ~ #V02, #C03:checked ~ #V03, #C04:checked ~ #V04, #C05:checked ~ #V05, #C06:checked ~ #V06 {
+    border: solid var(--clr-hight-01) 4px;
+}
+
+input[type=radio] {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.ProblemIcon {
+    width: 80px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    background-image: url(../Images/BackgroundGridCubes_03.webp);
+
+    background-color: var(--clr-grey-02);
+
+    image-rendering: auto;
+
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+
+
+
+
+
+
+#email {
+    height: 32px;
+    width: 100%;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+
+    border: solid var(--clr-grey-04) 1px;
+    border-radius: 6px;
+}
+
+.EmailLable{
+    margin-bottom: 6px;
+}
+
+.SmollText {
+    color: var(--clr-grey-04);
+    font-size: 12px;
+    text-align: center;
+}
+
+.EmailForm {
+    width: 400px;
+    margin-inline: auto;
+    margin-block: 80px;
+    padding: 20px;
+
+    font-family: "Roboto-Regular";
+
+    border-radius: 10px;
+    border: solid var(--clr-grey-04) 1px;
+    box-shadow: inset  0 0 8px #00000075;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+a {
+    color: rgb(225, 60, 65);
+}
+
+p, h1, h2, h3, h4 {
+    font-family: "Roboto-Regular";
+}
